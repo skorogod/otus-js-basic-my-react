@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production --config webpack.config.js",
+    "build:prod": "webpack --mode production --config webpack.config.js",
     "start": "webpack-dev-server --mode development --config webpack.config.js",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",

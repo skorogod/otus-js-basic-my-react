@@ -1,34 +1,33 @@
-.separator-block { 
-    display: flex;
-    align-items: center;
+.separator-block {
+  display: flex;
+  align-items: center;
 }
 
 .separator-block--small {
-    height: 20px;
+  height: 20px;
 }
 
 .separator-block--medium {
-    height: 50px;
+  height: 50px;
 }
 
 .separator-block--large {
-    height: 100px;;
+  height: 100px;
 }
 
 .separator-block-border {
-    width: 100%;
-    border-bottom: solid;
+  width: 100%;
+  border-bottom: solid;
 }
 
 .border-small {
-    border-width: 1px;
+  border-width: 1px;
 }
 
 .border-medium {
-    border-width: 5px;
+  border-width: 5px;
 }
 
 .border-large {
-    border-width: 10px;
+  border-width: 10px;
 }
-

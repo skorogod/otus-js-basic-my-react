@@ -1,4 +1,5 @@
 import { FC } from "react";
+import React from "react";
 import { poppingCompProps } from "./types";
 
 export const PoppingBlock: FC<poppingCompProps> = (props: poppingCompProps) => {

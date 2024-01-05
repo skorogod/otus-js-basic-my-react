@@ -5,11 +5,12 @@
   "author": "",
   "license": "MIT",
   "scripts": {
+    "test": "npm run storybook:build && npx loki --reactUri file:./storybook-static",
     "build": "webpack --mode production --config webpack.config.js",
     "build:prod": "webpack --mode production --config webpack.config.js",
     "start": "webpack-dev-server --mode development --config webpack.config.js",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "storybook:build": "storybook build",
     "loki-test": "npx loki test",
     "lint": "prettier . --check && eslint .",
     "lint:fix": "prettier . --write && eslint . --fix"
@@ -52,6 +53,7 @@
     "html-webpack-plugin": "^5.6.0",
     "husky": "^8.0.3",
     "image-loader": "^0.0.1",
+    "loki": "^0.33.1",
     "prettier": "^2.8.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -1,0 +1,15 @@
+.image--round {
+  border-radius: 50%;
+}
+
+.image--small {
+  width: 25%;
+}
+
+.image--medium {
+  width: 50%;
+}
+
+.image--large {
+  width: 100%;
+}
